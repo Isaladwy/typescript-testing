@@ -1,1 +1,3 @@
-console.log('This is a test file located at test/index.ts');
+var username = 'Isaladwy';
+username = '10';
+console.log(username);
