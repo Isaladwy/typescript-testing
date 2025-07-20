@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.12.4",
-  "dependencies": {
+  "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
