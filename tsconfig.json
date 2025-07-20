@@ -109,5 +109,5 @@
   "include": [
     "src/**/*",
     "test/**/*"
-  ]
+, "index.ts"  ]
 }
