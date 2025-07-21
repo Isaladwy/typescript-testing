@@ -108,8 +108,16 @@ console.log(totalSum);
 
 ////////////////
 
+
+const person2 = {
+  username: 'Codeawy',
+  walk(){
+    console.log(this);
+    return "I'm walking now";
+  },
+};
+
 function printThis(this: unknown){
   return this;
 }
 console.log(printThis());
-
