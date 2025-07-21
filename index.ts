@@ -46,3 +46,17 @@ let username = 'Isaladwy';
   console.log(num1 > num2) // greater than
   console.log(num1 <= num2) // less than or equal to
   console.log(num1 >= num2) // greater than or equal to
+
+  //////////////
+
+  const x: boolean = true;
+  const y: boolean = false;
+
+  console.log(x && y) // logical AND
+  console.log(x || y) // logical OR
+  console.log(!x) // logical NOT
+  console.log(x && !y) // logical AND with NOT
+  console.log(!x && y) // logical NOT with AND
+  console.log(x || !y) // logical OR with NOT
+  console.log(!x || y) // logical NOT with OR
+  console.log(x && y || !y) // complex logical expression
