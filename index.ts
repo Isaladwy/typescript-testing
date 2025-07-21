@@ -36,5 +36,8 @@ let username = 'Isaladwy';
 
   //////////////
 
-  console.log(5 == '5')
-  console.log(5 === '5')
+  console.log(5 == '5') // loose equality (Value comparison)
+  console.log(5 === '5') // strict equality (Value and Type comparison)
+
+  console.log(5 != '5') // loose inequality (Value comparison)
+  console.log(5 !== '5') // strict inequality (Value and Type comparison)
