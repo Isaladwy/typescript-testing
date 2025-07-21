@@ -111,5 +111,5 @@ console.log(totalSum);
 function printThis(this: unknown){
   return this;
 }
-
 console.log(printThis());
+
