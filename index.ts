@@ -90,4 +90,10 @@ const numbers: number[] = [1,2,3,4,5];
 
 const squaredNumbers = numbers.map(number => number * number);
 
+const evenNumbers = numbers.filter(number => number % 2 === 0);
+
+const foundNumber = numbers.find(number => number === 4);
+
 console.log(squaredNumbers);
+console.log(evenNumbers);
+console.log(foundNumber);
