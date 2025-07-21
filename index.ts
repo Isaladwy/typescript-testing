@@ -74,5 +74,7 @@ const person ={
   }
 }
 
+const {eat, walk} = person
+
 console.log(person.eat())
 console.log(person.walk())
