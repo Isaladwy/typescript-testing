@@ -78,3 +78,11 @@ const {eat, walk} = person
 
 console.log(person.eat())
 console.log(person.walk())
+
+const islam = {...person, username: 'Tamim', age: 2.5}
+
+console.log(islam.eat())
+console.log(islam)
+
+////////////////
+
