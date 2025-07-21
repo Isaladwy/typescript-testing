@@ -41,3 +41,8 @@ let username = 'Isaladwy';
 
   console.log(5 != '5') // loose inequality (Value comparison)
   console.log(5 !== '5') // strict inequality (Value and Type comparison)
+
+  console.log(num1 < num2) // less than
+  console.log(num1 > num2) // greater than
+  console.log(num1 <= num2) // less than or equal to
+  console.log(num1 >= num2) // greater than or equal to
