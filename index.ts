@@ -105,3 +105,11 @@ console.log(foundNumber);
 console.log(hasNegative); 
 console.log(allPositive);
 console.log(totalSum);
+
+////////////////
+
+function printThis(this: unknown){
+  return this;
+}
+
+console.log(printThis());
