@@ -60,3 +60,13 @@ let username = 'Isaladwy';
   console.log(x || !y) // logical OR with NOT
   console.log(!x || y) // logical NOT with OR
   console.log(x && y || !y) // complex logical expression
+
+////////////////
+
+const person ={
+  username: 'Isaladwy',
+  age: 30,
+  eat: function(){
+    return `I'm eating now`
+  }
+}
