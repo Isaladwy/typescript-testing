@@ -17,7 +17,7 @@ let username = 'Isaladwy';
   //////////////
 
   let num1: number = 20;
-  let num2: number = 5;
+  let num2: number = 7;
 
   const sum: number = num1 + num2;
   console.log(sum  )
