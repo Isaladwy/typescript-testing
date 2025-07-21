@@ -25,4 +25,9 @@ let username = 'Isaladwy';
   const difference: number = num1 - num2;
   console.log(difference)
 
+  const multi: number = num1 * num2;
+  console.log(multi)
+
+  const division: number = num1 / num2;
+  console.log(division)
   
