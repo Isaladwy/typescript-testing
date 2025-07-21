@@ -68,5 +68,11 @@ const person ={
   age: 30,
   eat: function(){
     return `I'm eating now`
+  },
+  walk(){
+    return `I'm walking now`
   }
 }
+
+console.log(person.eat())
+console.log(person.walk())
