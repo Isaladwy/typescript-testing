@@ -30,4 +30,6 @@ let username = 'Isaladwy';
 
   const division: number = num1 / num2;
   console.log(division)
-  
+
+  const reminder: number = num1 % num2;
+  console.log(reminder)
