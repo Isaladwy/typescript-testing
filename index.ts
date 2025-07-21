@@ -38,7 +38,6 @@ let username = 'Isaladwy';
 
   console.log(5 == '5') // loose equality (Value comparison)
   console.log(5 === '5') // strict equality (Value and Type comparison)
-
   console.log(5 != '5') // loose inequality (Value comparison)
   console.log(5 !== '5') // strict inequality (Value and Type comparison)
 
@@ -84,7 +83,7 @@ const islam = {...person, username: 'Tamim', age: 2.5}
 console.log(islam.eat())
 console.log(islam)
 
-////////////////
+//////////////// Higher Order Functions
 
 const numbers: number[] = [1,2,3,4,5];
 
@@ -96,7 +95,13 @@ const foundNumber = numbers.find(number => number === 4);
 
 const hasNegative = numbers.some(number => number < 0);
 
+const allPositive = numbers.every(number => number >= 0);
+
+const totalSum = numbers.reduce((previousValue, currentValue) => previousValue + currentValue, 0);
+
 console.log(squaredNumbers);
 console.log(evenNumbers);
 console.log(foundNumber);
-console.log(hasNegative);
+console.log(hasNegative); 
+console.log(allPositive);
+console.log(totalSum);
