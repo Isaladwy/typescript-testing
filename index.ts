@@ -13,3 +13,16 @@ let username = 'Isaladwy';
   const localUser = apiResponse
 
   localUser.id = 2
+
+  //////////////
+
+  let num1: number = 20;
+  let num2: number = 5;
+
+  const sum: number = num1 + num2;
+  console.log(sum  )
+  
+  const difference: number = num1 - num2;
+  console.log(difference)
+
+  
