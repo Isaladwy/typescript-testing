@@ -94,6 +94,9 @@ const evenNumbers = numbers.filter(number => number % 2 === 0);
 
 const foundNumber = numbers.find(number => number === 4);
 
+const hasNegative = numbers.some(number => number < 0);
+
 console.log(squaredNumbers);
 console.log(evenNumbers);
 console.log(foundNumber);
+console.log(hasNegative);
