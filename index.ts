@@ -134,6 +134,11 @@ function second() {
   console.log('Second Function');
   getProductsViaAPI();
   third();
+  third();
+  third();
+  third();
+  third();
+
 }
 function third() {
   console.log('Third Function');
