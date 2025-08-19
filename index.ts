@@ -138,10 +138,10 @@ function second() {
 function third() {
   console.log('Third Function');
 }
-function getProductsViaAPI(){
-  console.log('Fetching products from API...');
+function getProductsViaAPI() {
+  setTimeout(() => {
+    console.log('Products fetched from API');
+  }, 2000);
 }
 
-
 first();
-
