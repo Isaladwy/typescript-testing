@@ -128,14 +128,16 @@ console.log(printThis());
 
 function first() {
   console.log('First Function');
+  second();
 }
 function second() {
   console.log('Second Function');
+  third();
 }
 function third() {
   console.log('Third Function');
 }
 
-second();
+
 first();
-third();
+
