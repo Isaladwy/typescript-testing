@@ -36,10 +36,10 @@ console.log(reminder);
 
 //////////////
 
-console.log(5 == '5'); // loose equality (Value comparison)
-console.log(5 === '5'); // strict equality (Value and Type comparison)
-console.log(5 != '5'); // loose inequality (Value comparison)
-console.log(5 !== '5'); // strict inequality (Value and Type comparison)
+// console.log(5 == '5'); // loose equality (Value comparison)
+// console.log(5 === '5'); // strict equality (Value and Type comparison)
+// console.log(5 != '5'); // loose inequality (Value comparison)
+// console.log(5 !== '5'); // strict inequality (Value and Type comparison)
 
 console.log(num1 < num2); // less than
 console.log(num1 > num2); // greater than
@@ -136,6 +136,6 @@ function third() {
   console.log('Third Function');
 }
 
-first();
 second();
+first();
 third();
