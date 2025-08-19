@@ -132,10 +132,14 @@ function first() {
 }
 function second() {
   console.log('Second Function');
+  getProductsViaAPI();
   third();
 }
 function third() {
   console.log('Third Function');
+}
+function getProductsViaAPI(){
+  console.log('Fetching products from API...');
 }
 
 
