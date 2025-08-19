@@ -139,6 +139,7 @@ function third() {
   console.log('Third Function');
 }
 function getProductsViaAPI() {
+  // Asynchronous operation simulating an API call
   setTimeout(() => {
     console.log('Products fetched from API');
   }, 2000);
