@@ -149,5 +149,6 @@ function getProductsViaAPI() {
     console.log('Products fetched from API');
   }, 2000);
 }
-
 first();
+
+///////////////////////////
