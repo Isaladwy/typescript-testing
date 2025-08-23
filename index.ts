@@ -132,7 +132,7 @@ function first() {
 }
 function second() {
   console.log('Second Function');
-  getProductsViaAPI();
+  // getProductsViaAPI();
   third();
   third();
   third();
@@ -153,7 +153,7 @@ first();
 
 ///////////////////////////
 
-let todoList;
+let todoList: {id:number, todo:string}[] = [];
 function getTodoList(){
 
   console.log('fetching todo list from server...');
@@ -164,4 +164,6 @@ function getTodoList(){
   console.log('fetched todo list from server');
 }
 
+console.log(todoList);
 getTodoList();
+console.log(todoList);
