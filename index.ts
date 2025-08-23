@@ -152,3 +152,6 @@ function getProductsViaAPI() {
 first();
 
 ///////////////////////////
+
+const usernamee = 'Isaladwy';
+console.log(usernamee)
