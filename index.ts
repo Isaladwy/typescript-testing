@@ -153,5 +153,15 @@ first();
 
 ///////////////////////////
 
-const usernamee = 'Isaladwy';
-console.log(usernamee)
+let todoList;
+function getTodoList(){
+
+  console.log('fetching todo list from server...');
+
+  todoList = [
+    {id:1, todo:'Do something'}
+  ]
+  console.log('fetched todo list from server');
+}
+
+getTodoList();
