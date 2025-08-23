@@ -153,7 +153,8 @@ first();
 ///////////////////////////
 
 let todoList: { id: number; todo: string }[] = [];
-function getTodoList() {
+
+function getTodoList(callback: () => void) {
   console.log('fetching todo list from server...');
 
   setTimeout(() => {
@@ -163,5 +164,7 @@ function getTodoList() {
 }
 
 console.log(todoList);
-getTodoList();
+getTodoList(() => {
+  console.log('Callback executed');
+});
 console.log(todoList);
