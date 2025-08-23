@@ -158,10 +158,8 @@ function getTodoList(callback: () => void) {
   console.log('fetching todo list from server...');
 
   setTimeout(() => {
-    console.log('from top')
     todoList = [{ id: 1, todo: 'Do something' }];
     callback();
-    console.log('from bottom')
   }, 3000);
   console.log('fetched todo list from server');
 }
