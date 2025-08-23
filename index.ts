@@ -138,7 +138,6 @@ function second() {
   third();
   third();
   third();
-
 }
 function third() {
   console.log('Third Function');
@@ -153,14 +152,13 @@ first();
 
 ///////////////////////////
 
-let todoList: {id:number, todo:string}[] = [];
-function getTodoList(){
-
+let todoList: { id: number; todo: string }[] = [];
+function getTodoList() {
   console.log('fetching todo list from server...');
 
-  todoList = [
-    {id:1, todo:'Do something'}
-  ]
+  setTimeout(() => {
+    todoList = [{ id: 1, todo: 'Do something' }];
+  }, 3000);
   console.log('fetched todo list from server');
 }
 
